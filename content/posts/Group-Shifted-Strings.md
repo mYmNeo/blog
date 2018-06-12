@@ -32,9 +32,9 @@ Note: For the return value, each inner list's elements must follow the lexicogra
 ### Analysis:
 根据shift的pattern来当做key,string作为value,这样相同的shift的pattern就会是同一组values,然后排序一下
 ### Time and space complexity:
-time: {% math %}\Theta (nk){% endmath %},k是字符平均长度
+time: $\Theta (nk)$,k是字符平均长度
 
-space: {% math %}\Theta (n){% endmath %}
+space: $\Theta (n)$
 ### Code:
 ```cpp
 class Solution {

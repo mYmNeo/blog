@@ -12,9 +12,9 @@ Given an array of integers and an integer k, find out whether there are two dist
 ### Analysis:
 长度为k的滑动窗口,用map来记录数字出现的次数
 ### Time and space complexity:
-time: {% math %}\Theta (n){% endmath %}
+time: $\Theta (n)$
 
-space: {% math %}\Theta (n){% endmath %}
+space: $\Theta (n)$
 ### Code:
 ```cpp
 class Solution {

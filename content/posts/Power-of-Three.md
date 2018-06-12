@@ -19,9 +19,9 @@ Could you do it without using any loop / recursion?
 follow up:
 用INT_MAX范围内最大的power of three来module被检查的数字,如果为0,则这个数字是power of three
 ### Time and space complexity:
-time: {% math %}\Theta (n){% endmath %}, n为{% math %}\log_3 x{% endmath %}
+time: $\Theta (n)$, n为$\log_3 x{% endmath %}
 
-space: {% math %}\Theta (1){% endmath %}
+space: $\Theta (1)$
 ### Code:
 ```cpp
 class Solution {

@@ -12,7 +12,7 @@ tags:
 ### Analysis:
 DFS遍历一遍树,保存最大的`depth`
 ### Time and space complexity
-time: {% math %}\Theta (n){% endmath %}
+time: $\Theta (n)$
 ### Code:
 ```cpp
 class Solution {

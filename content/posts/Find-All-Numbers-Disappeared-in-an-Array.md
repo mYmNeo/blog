@@ -26,9 +26,9 @@ Output:
 
 另外一种方式, 先遍历一遍标记当前元素应该在的位置上的元素为负数,再遍历一遍,如果该位置的元素仍然是大于0的数,那么该元素就是缺失元素
 ### Time and space complexity:
-time: {% math %}\Theta (n){% endmath %}
+time: $\Theta (n)$
  
-space: {% math %}\Theta (1){% endmath %}
+space: $\Theta (1)$
 ### Code:
 ```cpp
 #ifdef CONFIG_H

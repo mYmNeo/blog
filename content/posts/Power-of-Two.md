@@ -22,7 +22,7 @@ example:
 
 或者数1的个数,只有1个1的数就是power of two
 ### Time and space complexity:
-time: {% math %}\Theta (1) {% endmath %}
+time: $\Theta (1) $
 
 space:
 ### Code:

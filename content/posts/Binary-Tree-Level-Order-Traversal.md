@@ -33,7 +33,7 @@ return its level order traversal as:
 ### Analysis:
 level遍历
 ### Time and space complexity:
-time: {% math %}\Theta (n){% endmath %}
+time: $\Theta (n)$
 ### Code:
 ```cpp
 class Solution {

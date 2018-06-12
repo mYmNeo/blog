@@ -15,7 +15,7 @@ You may assume that nums1 has enough space (size that is greater or equal to m +
 ### Analysis:
 题目的意思是不要用额外空间,为了避免overwrite原始数据,从m+n的位置开始写,逆序遍历2个array,选择最大的那个填到对应的位置
 ### Time and space complexity:
-time: {% math %}\Theta (m+n){% endmath %}
+time: $\Theta (m+n)$
 ### Code:
 ```cpp
 class Solution {

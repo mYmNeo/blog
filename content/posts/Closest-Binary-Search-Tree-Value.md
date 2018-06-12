@@ -16,7 +16,7 @@ You are guaranteed to have only one unique value in the BST that is closest to t
 ### Analysis:
 先判断target的值是在哪个分支,然后再用该分支的值与当前的root的值相比,看哪个值更接近target
 ### Time and space complexity:
-time: {% math %}\Theta (log (n)){% endmath %}
+time: $\Theta (log (n))$
 ### Code:
 ```cpp
 class Solution {

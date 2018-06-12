@@ -24,9 +24,9 @@ For example, the lowest common ancestor (LCA) of nodes 2 and 8 is 6. Another exa
 ### Analysis:
 根据binary search tree的特点,如果2个值都是小于根节点值,那么答案在左子树,如果都大于根节点那么答案在右子树,不然就是根节点
 ### Time and space complexity:
-time: {% math %}\Theta(\log(n)) {% endmath %}
+time: $\Theta(\log(n)) $
 
-space: {% math %}\Theta (1){% endmath %}
+space: $\Theta (1)$
 ### Code:
 ```cpp
 class Solution {

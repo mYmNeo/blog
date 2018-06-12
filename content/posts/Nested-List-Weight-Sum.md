@@ -34,7 +34,7 @@ int getInteger() const;
 1. 如果是那么直接用`getInteger`获得的值与当前的`depth`值相乘并记录
 1. 不是数字调用`getList()`,然后递归调用`depthSum`
 ### Time and space complexity
-time: {% math %}\Theta (n){% endmath %}
+time: $\Theta (n)$
 ### Code:
 ```cpp
 class Solution {

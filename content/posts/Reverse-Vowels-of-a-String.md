@@ -20,9 +20,9 @@ Given s = "leetcode", return "leotcede".
 ### Analysis:
 跟reverse string一样,只不过需要找到vowel字母后再swap
 ### Time and space complexity:
-time: {% math %}\Theta (n){% endmath %}
+time: $\Theta (n)$
 
-space: {% math %}\Theta (1){% endmath %}
+space: $\Theta (1)$
 ### Code:
 ```cpp
 class Solution {

@@ -32,9 +32,9 @@ You may assume that the secret number and your friend's guess only contain digit
 ### Analysis:
 分别记录secret和guess出现的差值,如果有差值,那么就是一个cow
 ### Time and space complexity:
-time: {% math %}\Theta (n){% endmath %}
+time: $\Theta (n)$
 
-space: {% math %}\Theta (n){% endmath %}
+space: $\Theta (n)$
 ### Code:
 ```cpp
 class Solution {

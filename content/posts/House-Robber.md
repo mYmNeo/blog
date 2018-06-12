@@ -18,11 +18,11 @@ formula:
 
 dp[i] = max(dp[i - 2] + data[i], dp[i - 1])
 ### Time and space complexity:
-time: {% math %}\Theta (n){% endmath %}
+time: $\Theta (n)$
 
-space: {% math %}\Theta (n){% endmath %}
+space: $\Theta (n)$
 
-optimized {% math %}\Theta (1){% endmath %}
+optimized $\Theta (1)$
 ### Code:
 ```cpp
 class Solution {

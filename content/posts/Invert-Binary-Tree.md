@@ -27,7 +27,7 @@ tags:
 ### Analysis:
 后序遍历树,最后交换一下左子树和右子树
 ### Time and space complexity
-time: {% math %}\Theta (n){% endmath %}
+time: $\Theta (n)$
 ### Code:
 ```cpp
 class Solution {

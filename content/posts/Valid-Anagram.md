@@ -23,7 +23,7 @@ tags:
 2. 出现在`t`中的字符-1
 3. 遍历一遍,统计的数字,如果某个字符的统计值不为0,就返回`false`
 ### Time and space complexity:
-time: {% math %}\Theta (n){% endmath %}
+time: $\Theta (n)$
 ### Code:
 ```cpp
 class Solution {

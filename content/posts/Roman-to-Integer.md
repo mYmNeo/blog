@@ -12,9 +12,9 @@ tags:
 ### Analysis:
 从左往右依次读取,如果当前的字符代表的值大于后面的值,就把这个值+到最后的结果,不然就-,就像找递增数列一样
 ### Time and space complexity:
-time: {% math %}\Theta (n){% endmath %}
+time: $\Theta (n)$
 
-space: {% math %}\Theta (1){% endmath %}
+space: $\Theta (1)$
 ### Code:
 ```cpp
 class Solution {

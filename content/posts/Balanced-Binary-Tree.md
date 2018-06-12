@@ -14,7 +14,7 @@ For this problem, a height-balanced binary tree is defined as a binary tree in w
 ### Analysis:
 DFS遍历树,给每个节点一个depth值,检查左右子树的的depth值是否相差为1
 ### Time and space complexity:
-time: {% math %}\Theta (n){% endmath %}
+time: $\Theta (n)$
 ### Code:
 ```cpp
 class Solution {

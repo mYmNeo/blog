@@ -16,7 +16,7 @@ tags:
 然后遍历如果当前的interval的结束时间大于下一个interval的开始时间就返回`false`
 ### Time and space complexity:
 排序时间为主要耗时
-time: {% math %}\Theta(n\log n) {% endmath %}
+time: $\Theta(n\log n) $
 ### Code:
 ```cpp
 class Solution {

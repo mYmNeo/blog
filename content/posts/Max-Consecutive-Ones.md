@@ -22,9 +22,9 @@ The length of input array is a positive integer and will not exceed 10,000
 ### Analysis:
 简单的数组问题
 ### Time and space complexity:
-time: {% math %}\Theta (n){% endmath %}
+time: $\Theta (n)$
  
-space: {% math %}\Theta (n){% endmath %}
+space: $\Theta (n)$
 ### Code:
 ```cpp
 #ifdef CONFIG_H

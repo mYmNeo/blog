@@ -19,9 +19,9 @@ Could you optimize your algorithm to use only O(k) extra space?
 ### Analysis:
 思路和pascal's triangle一样
 ### Time and space complexity:
-time: {% math %}\Theta (k^2){% endmath %}
+time: $\Theta (k^2)$
 
-space: {% math %}\Theta (k){% endmath %}
+space: $\Theta (k)$
 ### Code:
 ```cpp
 class Solution {

@@ -17,9 +17,9 @@ native方式存储所有的node节点,如果查到相同的node节点表示有cy
 
 Follow up, 快慢指针追逐,一个指针每次走2步,一个指针每次走1步,如果快指针追上慢指针,说明有cycle,否则没有.快慢指针还有一个常用的功能就是找链表中点.
 ### Time and space complexity:
-time: {% math %}\Theta (n){% endmath %}
+time: $\Theta (n)$
 
-space: {% math %}\Theta (1){% endmath %}
+space: $\Theta (1)$
 ### Code:
 ```cpp
 class Solution {

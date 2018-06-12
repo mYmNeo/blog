@@ -35,9 +35,9 @@ begin to intersect at node c1.
 
 另外一种方式是,交叉遍历,如代码所示
 ### Time and space complexity:
-time: {% math %}\Theta (n){% endmath %}
+time: $\Theta (n)$
 
-space: {% math %}\Theta (1){% endmath %}
+space: $\Theta (1)$
 ### Code:
 ```cpp
 class Solution {

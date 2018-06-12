@@ -22,9 +22,9 @@ n and k are non-negative integers.
 + 最后2个fences的color一样,这样就有(k-1)*f(n-2)
 + 最后2个fences的color不一样,这样就有(k-1)*f(n-1)
 ### Time and space complexity:
-time: {% math %}\Theta (n){% endmath %}
+time: $\Theta (n)$
 
-space: {% math %}\Theta (1){% endmath %}
+space: $\Theta (1)$
 ### Code:
 ```cpp
 class Solution {

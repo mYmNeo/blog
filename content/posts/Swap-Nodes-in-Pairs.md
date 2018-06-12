@@ -17,9 +17,9 @@ Your algorithm should use only constant space. You may not modify the values in 
 ### Analysis:
 利用二级指针,先swap node,然后更改指针指向的内存位置,跳到下一个位置继续
 ### Time and space complexity:
-time: {% math %}\Theta (n){% endmath %}
+time: $\Theta (n)$
 
-space: {% math %}\Theta (1){% endmath %}
+space: $\Theta (1)$
 ### Code:
 ```cpp
 class Solution {

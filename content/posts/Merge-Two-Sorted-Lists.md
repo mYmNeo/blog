@@ -12,9 +12,9 @@ Merge Two Sorted Lists
 ### Analysis:
 就是简单的merge
 ### Time and space complexity:
-time: {% math %}\Theta (n){% endmath %}
+time: $\Theta (n)$
 
-space: {% math %}\Theta (1){% endmath %}
+space: $\Theta (1)$
 ### Code:
 ```cpp
 class Solution {

@@ -16,7 +16,7 @@ tags:
 ### Analysis:
 Celebrity的定义是别人都认识他,他不认识所有人,根据这个定义我们可以知道如果一个人认识另外一个人,那么他肯定不是Celebrity,如果他不认识另外一个人,那么他可能是Celebrity.所以我们就先用一次遍历来找出可能的Celebrity,然后我们再遍历一次,验证这个人到底是不是Celebrity.
 ### Time and space complexity:
-time: {% math %}\Theta (n) {% endmath %}
+time: $\Theta (n) $
 ### Code:
 ```cpp
 bool knows(int a, int b);

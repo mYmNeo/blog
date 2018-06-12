@@ -12,7 +12,7 @@ tags:
 ### Analysis:
 将被删除元素的copy到这个元素中
 ### Time and space complexity:
-time: {% math %}\Theta (1){% endmath %}
+time: $\Theta (1)$
 ### Code:
 ```cpp
 class Solution {

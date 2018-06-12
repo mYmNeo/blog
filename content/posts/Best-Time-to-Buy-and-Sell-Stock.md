@@ -14,9 +14,9 @@ If you were only permitted to complete at most one transaction (ie, buy one and 
 ### Analysis:
 遍历数组,记录到当前节点的最大值和最小值,当最小值变化后,同时更新最大值和最小值,因为前面的最大值和最小值在后面是用不到的
 ### Time and space complexity:
-time: {% math %}\Theta (n){% endmath %}
+time: $\Theta (n)$
 
-space: {% math %}\Theta (1){% endmath %}
+space: $\Theta (1)$
 ### Code:
 ```cpp
 class Solution {

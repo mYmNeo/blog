@@ -16,9 +16,9 @@ Note that `1` is typically treated as an ugly number.
 ### Analysis:
 对given number分别对`2,3,5`做module运算,如果有其中任何情况不为0,那么不是ugly number
 ### Time and space complexity:
-time: {% math %}\Theta (a+b+c), number = 2^a3^b5^c{% endmath %}
+time: $\Theta (a+b+c), number = 2^a3^b5^c$
 
-space: {% math %}\Theta (1) {% endmath %}
+space: $\Theta (1) $
 ### Code:
 ```cpp
 class Solution {

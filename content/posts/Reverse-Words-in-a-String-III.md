@@ -17,9 +17,9 @@ Note: In the string, each word is separated by single space and there will not b
 ### Analysis:
 找到一个单词的分界,然后翻转,repeat
 ### Time and space complexity:
-time: {% math %}\Theta (n){% endmath %}
+time: $\Theta (n)$
  
-space: {% math %}\Theta (1){% endmath %}
+space: $\Theta (1)$
 ### Code:
 ```cpp
 class Solution {

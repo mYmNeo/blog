@@ -16,15 +16,15 @@ tags:
 >return `2`. (because the subarray `[-1, 2]` sums to `1` and is the longest)
 >
 >**Follow Up:**
->Can you do it in {% math %}\Theta (n){% endmath %} time?
+>Can you do it in $\Theta (n)$ time?
 <!-- more -->
 ### Analysis:
 最native的方式就是O(n^2)了,从每个index开始,依次找满足target的subarry.
 Follow up, 用dp的方式记录从0到某一个位置的sum值和起始index,这样就能快速地求出从任意位置的长度任意subarray的sum值
 ### Time and space complexity:
-time: {% math %}\Theta (n){% endmath %}
+time: $\Theta (n)$
 
-space: {% math %}\Theta (n){% endmath %}
+space: $\Theta (n)$
 ### Code:
 ```cpp
 class Solution {

@@ -29,13 +29,13 @@ Implement the following operations of a stack using queues.
 ### Time and space complexity:
 time:
 
-push {% math %}\Theta (1){% endmath %}
+push $\Theta (1)$
 
-pop  {% math %}\Theta (n){% endmath %}
+pop  $\Theta (n)$
 
-top {% math %}\Theta (1){% endmath %}
+top $\Theta (1)$
 
-empty {% math %}\Theta (1){% endmath %}
+empty $\Theta (1)$
 ### Code:
 ```cpp
 class Stack {

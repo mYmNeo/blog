@@ -14,7 +14,7 @@ tags:
 1. 当前2个节点都为空
 1. 当前2个节点都不为空,`val`相同
 ### Time and space complexity:
-time: {% math %}\Theta (n){% endmath %}
+time: $\Theta (n)$
 ### Code:
 ```cpp
 class Solution {

@@ -12,7 +12,7 @@ Determine whether an integer is a palindrome. Do this without extra space.
 ### Analysis:
 利用回文数的特点:逆序还是原来的数解决,注意溢出问题,为了防止溢出,只需要算一半的数字即可
 ### Time and space complexity:
-space: {% math %}\Theta (1){% endmath %}
+space: $\Theta (1)$
 ### Code:
 ```cpp
 class Solution {

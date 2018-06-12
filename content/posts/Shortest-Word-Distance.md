@@ -19,8 +19,8 @@ tags:
 ### Analysis:
 遍历一遍所有的words,记录word1和word2出现的位置,最后求一下位置的差值的绝对值
 ### Time and space complexity:
-time: {% math %}\Theta (n){% endmath %}
-space: {% math %}\Theta (1){% endmath %}
+time: $\Theta (n)$
+space: $\Theta (1)$
 ### Code:
 ```cpp
 class Solution {

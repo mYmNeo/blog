@@ -25,7 +25,7 @@ Try to do this in one pass.
 ### Analysis:
 双指针,类似n大小滑动窗口
 ### Time and space complexity:
-time: {% math %}\Theta (n){% endmath %}
+time: $\Theta (n)$
 ### Code:
 ```cpp
 class Solution {

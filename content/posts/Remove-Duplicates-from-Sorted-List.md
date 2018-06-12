@@ -16,9 +16,9 @@ Given `1->1->2->3->3`, return `1->2->3`.
 ### Analysis:
 和数组遍历去重复一样
 ### Time and space complexity:
-time: {% math %}\Theta (n) {% endmath %}
+time: $\Theta (n) $
 
-space: {% math %}\Theta (1) {% endmath %}
+space: $\Theta (1) $
 ### Code:
 ```cpp
 class Solution {

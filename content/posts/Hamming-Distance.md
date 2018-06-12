@@ -12,15 +12,15 @@ Given two integers x and y, calculate the Hamming distance.
 {% endblockquote %}
 <!-- more -->
 Note:
-{% math %}
+$
 0 <= x, y < 2^{31}
-{% endmath %}
+$
 ### Analysis:
 divide and conquer, 先1位计算,再2位计算,一直到16位
 ### Time and space complexity:
-time: {% math %}\Theta (1) {% endmath %}
+time: $\Theta (1) $
 
-space: {% math %}\Theta (1) {% endmath %}
+space: $\Theta (1) $
 ### Code:
 ```cpp
 class Solution {

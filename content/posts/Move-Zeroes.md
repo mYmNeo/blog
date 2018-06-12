@@ -16,7 +16,7 @@ tags:
 ### Analysis:
 可以看做是排序的一种变形,in-place排序有冒泡,快排,题目要求最小的操作,冒泡显然不合适,所以用快排的partition函数
 ### Time and space complexity:
-time: {% math %}\Theta (n){% endmath %}
+time: $\Theta (n)$
 ### Code:
 ```cpp
 class Solution {

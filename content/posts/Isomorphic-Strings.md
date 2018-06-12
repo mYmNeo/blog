@@ -28,9 +28,9 @@ You may assume both s and t have the same length.
 ### Analysis:
 用2个map来做s->t和t->s的字符映射,如果有一个不满足就是为false
 ### Time and space complexity:
-time: {% math %}\Theta (n){% endmath %}
+time: $\Theta (n)$
 
-space: {% math %}\Theta (n){% endmath %}
+space: $\Theta (n)$
 ### Code:
 ```cpp
 class Solution {

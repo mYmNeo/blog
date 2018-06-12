@@ -35,7 +35,7 @@ Bonus points if you could solve it both recursively and iteratively.
 ### Analysis:
 根据example,可以看出对称的位置是left->left和right->right,left->right和right->left,递归调用,检测每个子树是否为对称.
 ### Time and space complexity:
-time: {% math %}\Theta (n){% endmath %}
+time: $\Theta (n)$
 ### Code:
 ```cpp
 class Solution {

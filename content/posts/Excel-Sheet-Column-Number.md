@@ -25,7 +25,7 @@ For example:
 ### Analysis:
 类似于`atoi`,只不过不是10进制而是26进制
 ### Time and space complexity:
-time: {% math %}\Theta (n){% endmath %}
+time: $\Theta (n)$
 ### Code:
 ```cpp
 class Solution {

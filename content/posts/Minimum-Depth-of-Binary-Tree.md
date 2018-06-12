@@ -14,7 +14,7 @@ The minimum depth is the number of nodes along the shortest path from the root n
 ### Analysis:
 DFS或者BFS遍历
 ### Time and space complexity:
-time: {% math %}\Theta (n){% endmath %}
+time: $\Theta (n)$
 ### Code:
 ```cpp
 class Solution {

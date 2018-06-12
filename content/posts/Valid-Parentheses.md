@@ -14,9 +14,9 @@ The brackets must close in the correct order, `"()"` and `"()[]{}"` are all vali
 ### Analysis:
 经典的用stack解决的问题
 ### Time and space complexity:
-time: {% math %}\Theta (n){% endmath %}
+time: $\Theta (n)$
 
-space: {% math %}\Theta (n){% endmath %}
+space: $\Theta (n)$
 ### Code:
 ```cpp
 class Solution {

@@ -37,9 +37,9 @@ x |= x >> 16;
 ++x;
 ```
 ### Time and space complexity:
-time: {% math %}\Theta (1) {% endmath %}
+time: $\Theta (1) $
 
-space: {% math %}\Theta (1) {% endmath %}
+space: $\Theta (1) $
 ### Code:
 ```cpp
 class Solution {

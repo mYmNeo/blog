@@ -25,11 +25,11 @@ Output: ["Alaska", "Dad"]
 对每一行的字母编码,`qwertyuiop`编码`001`,`asdfghjkl`编码`010`,`zxcvbnm`编码`100`,遍历每个字串的每个字母,如果都是同一行的字母,那么所有的编码做与操作都是同一个编码,不然就会是`0`
 
 ### Time and space complexity:
-time: {% math %}\Theta (n*m) {% endmath %}
+time: $\Theta (n*m) $
 
 n represents number of strings, m represents length of string
 
-space: {% math %}\Theta (1) {% endmath %}
+space: $\Theta (1) $
 
 ### Code:
 ```cpp

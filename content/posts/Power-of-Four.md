@@ -26,7 +26,7 @@ power of 4一定是power of 2,所以先用power of 2 的验证方法来验证,�
 ```
 是power of 2的数字再与0x55555555作and,如果不为0,就是power of 4
 ### Time and space complexity:
-time: {% math %}\Theta (1){% endmath %}
+time: $\Theta (1)$
 ### Code:
 ```cpp
 class Solution {

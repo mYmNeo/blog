@@ -28,7 +28,7 @@ return true, as there exist a root-to-leaf path `5->4->11->2` which sum is 22.
 ### Analysis:
 DFS或者BFS遍历,附带参数为当前的sum值
 ### Time and space complexity:
-time: {% math %}\Theta (n){% endmath %}
+time: $\Theta (n)$
 ### Code:
 ```cpp
 class Solution {

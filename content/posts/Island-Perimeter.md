@@ -24,9 +24,9 @@ Explanation: The perimeter is the 16 yellow stripes in the image below:
 本质上就是计算相连正方形有多少条边, 任意2个正方形相连,会重复计算2次边长,
 所以最后的答案就是(正方形总数\*4-相连的正方形数量\*2)
 ### Time and space complexity:
-time: {% math %}\Theta (n){% endmath %}
+time: $\Theta (n)$
  
-space: {% math %}\Theta (n){% endmath %}
+space: $\Theta (n)$
 ### Code:
 ```cpp
 #ifdef CONFIG_H

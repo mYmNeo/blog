@@ -10,9 +10,9 @@ tags:
 ### Analysis:
 用unordered_set记录出现的数字,如果`find`到就返回`true`
 ### Time and space complexity:
-time: {% math %}\Theta (n) {% endmath %}
+time: $\Theta (n) $
 
-space: {% math %}\Theta (n) {% endmath %}
+space: $\Theta (n) $
 ### Code:
 ```cpp
 class Solution {

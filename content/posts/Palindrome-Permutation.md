@@ -14,9 +14,9 @@ tags:
 ### Analysis:
 这个问题可以看做是简单的统计字符问题,如果字符串每个字符都是偶数个,或者只有一个字符的数量是奇数个,那么这个字符串就会是palindrome permutation
 ### Time and space complexity
-time: {% math %}\Theta (n){% endmath %}
+time: $\Theta (n)$
 
-space: {% math %}\Theta (n){% endmath %}
+space: $\Theta (n)$
 ### Code:
 ```cpp
 class Solution {

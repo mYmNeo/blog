@@ -16,9 +16,9 @@ DP的入门题
 
 formula: dp[i] = dp[i - 1] + dp[i - 2];
 ### Time and space complexity:
-time: {% math %}\Theta (n){% endmath %}
+time: $\Theta (n)$
 
-space: {% math %}\Theta (1){% endmath %}
+space: $\Theta (1)$
 ### Code:
 ```cpp
 class Solution {

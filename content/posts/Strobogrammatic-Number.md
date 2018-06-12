@@ -16,9 +16,9 @@ For example, the numbers "69", "88", and "818" are all strobogrammatic.
 ### Analysis:
 和判断palindrome string一个思路,双指针
 ### Time and space complexity:
-time: {% math %}\Theta (n){% endmath %}
+time: $\Theta (n)$
 
-space: {% math %}\Theta (1){% endmath %}
+space: $\Theta (1)$
 ### Code:
 ```cpp
 class Solution {

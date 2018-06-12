@@ -18,9 +18,9 @@ If this function is called many times, how would you optimize it?
 ### Analysis:
 与counting bit类似,divide and conquer,先2位2位swap,然后4位4位swap
 ### Time and space complexity:
-time: {% math %}\Theta (1){% endmath %}
+time: $\Theta (1)$
 
-space: {% math %}\Theta (1){% endmath %}
+space: $\Theta (1)$
 ### Code:
 ```cpp
 class Solution {

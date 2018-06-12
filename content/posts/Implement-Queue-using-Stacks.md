@@ -27,13 +27,13 @@ Implement the following operations of a queue using stacks.
 ### Time and space complexity:
 time:
 
-push {% math %}\Theta (1){% endmath %}
+push $\Theta (1)$
 
-pop  {% math %}\Theta (n){% endmath %}
+pop  $\Theta (n)$
 
-peek {% math %}\Theta (1){% endmath %}
+peek $\Theta (1)$
 
-empty {% math %}\Theta (1){% endmath %}
+empty $\Theta (1)$
 ### Code:
 ```cpp
 class Queue {

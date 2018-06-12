@@ -10,9 +10,9 @@ tags:
 ### Analysis:
 这个没有难度,不停的往头指针加入节点就可以
 ### Time and space complexity:
-time: {% math %}\Theta (n){% endmath %}
+time: $\Theta (n)$
 
-space: {% math %}\Theta (1){% endmath %}
+space: $\Theta (1)$
 ### Code:
 ```cpp
 class Solution {
