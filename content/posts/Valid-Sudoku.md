@@ -6,17 +6,15 @@ tags:
 date: 2016-05-09 15:33:37
 ---
 >
-Determine if a Sudoku is valid, according to: [Sudoku Puzzles - The Rules](http://sudoku.com.au/TheRules.aspx).
-
-The Sudoku board could be partially filled, where empty cells are filled with the character '.'.
+>Determine if a Sudoku is valid, according to: [Sudoku Puzzles - The Rules](http://sudoku.com.au/TheRules.aspx).
 >
-{% asset_img sudoku.png %}
+>The Sudoku board could be partially filled, where empty cells are filled with the character '.'.
 >
-A partially filled sudoku which is valid.
-
-**Note:**
-
-A valid Sudoku board (partially filled) is not necessarily solvable. Only the filled cells need to be validated.
+>A partially filled sudoku which is valid.
+>
+>**Note:**
+>
+>A valid Sudoku board (partially filled) is not necessarily solvable. Only the filled cells need to be validated.
 >
 
 ### Analysis:

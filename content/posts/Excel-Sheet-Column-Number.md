@@ -6,11 +6,11 @@ tags:
     - algorithm
 ---
 >
-Related to question Excel Sheet Column Title
-
-Given a column title as appear in an Excel sheet, return its corresponding column number.
-
-For example:
+>Related to question Excel Sheet Column Title
+>
+>Given a column title as appear in an Excel sheet, return its corresponding column number.
+>
+>For example:
 ```
     A -> 1
     B -> 2

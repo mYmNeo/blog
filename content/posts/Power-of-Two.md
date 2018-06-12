@@ -6,7 +6,7 @@ tags:
 date: 2016-05-05 15:18:01
 ---
 >
-Given an integer, write a function to determine if it is a power of two.
+>Given an integer, write a function to determine if it is a power of two.
 >
 
 ### Analysis:

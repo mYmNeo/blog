@@ -6,9 +6,9 @@ tags:
 date: 2016-05-06 17:01:29
 ---
 >
-Given a binary tree, check whether it is a mirror of itself (ie, symmetric around its center).
-
-For example, this binary tree is symmetric:
+>Given a binary tree, check whether it is a mirror of itself (ie, symmetric around its center).
+>
+>For example, this binary tree is symmetric:
 >
 ```
     1
@@ -28,8 +28,8 @@ But the following is not:
    3    3
 ```
 >
-Note:
-Bonus points if you could solve it both recursively and iteratively.
+>Note:
+>Bonus points if you could solve it both recursively and iteratively.
 >
 
 ### Analysis:

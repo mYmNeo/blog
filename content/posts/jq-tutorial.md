@@ -120,11 +120,11 @@ Output	{"KEY_a": 1, "KEY_b": 2}
 ```
 + change field value
 
-  ```
-  jq '.name="1"|.resource="2"'
-  Input {"name":"a","resource":"b"}
-  Ouput {"name":"1","resource":"b"}
-  ```
+```
+jq '.name="1"|.resource="2"'
+Input {"name":"a","resource":"b"}
+Ouput {"name":"1","resource":"b"}
+```
 + show select fields
 
 ```

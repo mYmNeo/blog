@@ -6,12 +6,12 @@ tags:
   - algorithm
 ---
 >
-Given a positive integer, output its complement number. The complement strategy is to flip the bits of its binary representation.
-
-Note:
-
-The given integer is guaranteed to fit within the range of a 32-bit signed integer.
-You could assume no leading zero bit in the integer’s binary representation.
+>Given a positive integer, output its complement number. The complement strategy is to flip the bits of its binary representation.
+>
+>Note:
+>
+>The given integer is guaranteed to fit within the range of a 32-bit signed integer.
+>You could assume no leading zero bit in the integer’s binary representation.
 >
 
 ## Exammple:
@@ -25,7 +25,7 @@ Output: 0
 Explanation: The binary representation of 1 is 1 (no leading zero bits), and its complement is 0. So you need to output 0.
 ```
 ### Analysis:
-找出大于该数的最小2的幂-1,然后与数字做异或操作.
+找出大于该数的最小2的幂-1,然后与数字做异或操作.
 
 大于某一个数字的最小2的幂:
 ```cpp

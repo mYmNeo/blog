@@ -6,11 +6,11 @@ tags:
 date: 2016-05-07 10:21:22
 ---
 >
-Given numRows, generate the first numRows of Pascal's triangle.
-
-For example, given numRows = 5,
-
-Return
+>Given numRows, generate the first numRows of Pascal's triangle.
+>
+>For example, given numRows = 5,
+>
+>Return
 >
 ```
 [

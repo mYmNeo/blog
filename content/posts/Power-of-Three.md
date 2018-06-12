@@ -6,11 +6,11 @@ tags:
 date: 2016-05-05 11:28:06
 ---
 >
-Given an integer, write a function to determine if it is a power of three.
-
-**Follow up:**
-
-Could you do it without using any loop / recursion?
+>Given an integer, write a function to determine if it is a power of three.
+>
+>**Follow up:**
+>
+>Could you do it without using any loop / recursion?
 >
 
 ### Analysis:

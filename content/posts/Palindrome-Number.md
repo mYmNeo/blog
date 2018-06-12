@@ -6,7 +6,7 @@ tags:
 date: 2016-05-09 14:32:58
 ---
 >
-Determine whether an integer is a palindrome. Do this without extra space.
+>Determine whether an integer is a palindrome. Do this without extra space.
 >
 
 ### Analysis:

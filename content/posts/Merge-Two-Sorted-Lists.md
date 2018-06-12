@@ -6,7 +6,7 @@ tags:
 date: 2016-05-05 17:06:13
 ---
 >
-Merge Two Sorted Lists
+>Merge Two Sorted Lists
 >
 
 ### Analysis:

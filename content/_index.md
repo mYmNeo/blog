@@ -14,4 +14,4 @@ lastmodifieremail = "thomassong2012@gmail.com"
 
 ## Just memos
 
-![](pose.jpg)
+![](/posts/pose.jpg)

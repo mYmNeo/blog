@@ -6,9 +6,9 @@ tags:
 date: 2016-05-07 10:28:21
 ---
 >
-Given an integer n, return the number of trailing zeroes in n!.
-
-Note: Your solution should be in logarithmic time complexity.
+>Given an integer n, return the number of trailing zeroes in n!.
+>
+>Note: Your solution should be in logarithmic time complexity.
 >
 
 ### Analysis:
