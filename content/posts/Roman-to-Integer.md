@@ -8,7 +8,7 @@ tags:
 >Given a roman numeral, convert it to an integer.
 >
 >Input is guaranteed to be within the range from 1 to 3999.
-<!-- more -->
+
 ### Analysis:
 从左往右依次读取,如果当前的字符代表的值大于后面的值,就把这个值+到最后的结果,不然就-,就像找递增数列一样
 ### Time and space complexity:

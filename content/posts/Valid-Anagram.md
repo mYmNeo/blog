@@ -16,7 +16,7 @@ tags:
 >
 >**Follow up:**
 >What if the inputs contain unicode characters? How would you adapt your solution to such case?
-<!-- more -->
+
 ### Analysis:
 用统计字符来解决,follow up也可以用此方法解决
 1. 出现在`s`中的字符+1

@@ -27,4 +27,3 @@ FROM (subquery) [AS] tbl_name ...
 ```mysql
 set CHARACTER SET (encoding)
 ```
-<!-- more -->

@@ -5,10 +5,10 @@ tags:
   - algorithm
 date: 2016-05-05 15:18:01
 ---
-{% blockquote %}
+>
 Given an integer, write a function to determine if it is a power of two.
-{% endblockquote %}
-<!-- more -->
+>
+
 ### Analysis:
 快速的判断一个数是不是power of two, `n & (n - 1) == 0`
 

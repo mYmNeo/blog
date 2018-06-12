@@ -5,10 +5,10 @@ tags:
   - algorithm
 date: 2016-05-05 17:06:13
 ---
-{% blockquote %}
+>
 Merge Two Sorted Lists
-{% endblockquote %}
-<!-- more -->
+>
+
 ### Analysis:
 就是简单的merge
 ### Time and space complexity:

@@ -18,4 +18,3 @@ if [[ ${testmystring} != *"c0"* ]];then
     # testmystring does not contain c0
 fi
 ```
-<!-- more -->

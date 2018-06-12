@@ -5,7 +5,7 @@ tags:
   - algorithm
 date: 2016-05-09 16:52:48
 ---
-{% blockquote %}
+>
 Given two strings **s** and **t**, determine if they are isomorphic.
 
 Two strings are isomorphic if the characters in **s** can be replaced to get **t**.
@@ -23,8 +23,8 @@ Given `"paper"`, `"title"`, return true.
 **Note:**
 
 You may assume both s and t have the same length.
-{% endblockquote %}
-<!-- more -->
+>
+
 ### Analysis:
 用2个map来做s->t和t->s的字符映射,如果有一个不满足就是为false
 ### Time and space complexity:

@@ -5,7 +5,7 @@ tags:
   - algorithm
 date: 2017-04-19 21:03:13
 ---
-{% blockquote %}
+>
 Given an array of integers where 1 ≤ a[i] ≤ n (n = size of array), some elements appear twice and others appear once.
 
 Find all the elements of [1, n] inclusive that do not appear in this array.
@@ -19,8 +19,8 @@ Input:
 
 Output:
 [5,6]
-{% endblockquote %}
-<!-- more -->
+>
+
 ### Analysis:
 一种方式像Union Find一样,每个元素是不是属于当前这个slot,如果不是就和该元素应该属于的位置交换,直到满足条件.
 

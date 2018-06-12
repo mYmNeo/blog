@@ -17,4 +17,3 @@ git svn fetch <branch name> [-r<rev>]
 svnrdump dump [-r<rev>] <svn repostory url> > <dump file>
 svnadmin load --force-uuid <directory> < <dump file>
 ```
-<!-- more -->

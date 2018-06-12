@@ -6,7 +6,7 @@ tags:
     - algorithm
 ---
 >Given an array of integers, find if the array contains any duplicates. Your function should return true if any value appears at least twice in the array, and it should return false if every element is distinct.
-<!-- more -->
+
 ### Analysis:
 用unordered_set记录出现的数字,如果`find`到就返回`true`
 ### Time and space complexity:

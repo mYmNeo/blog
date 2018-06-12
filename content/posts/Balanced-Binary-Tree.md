@@ -5,12 +5,10 @@ tags:
   - algorithm
 date: 2016-05-06 16:49:15
 ---
-{% blockquote %}
-Given a binary tree, determine if it is height-balanced.
+>Given a binary tree, determine if it is height-balanced.
+>
+>For this problem, a height-balanced binary tree is defined as a binary tree in which the depth of the two >subtrees of every node never differ by more than 1.
 
-For this problem, a height-balanced binary tree is defined as a binary tree in which the depth of the two subtrees of every node never differ by more than 1.
-{% endblockquote %}
-<!-- more -->
 ### Analysis:
 DFS遍历树,给每个节点一个depth值,检查左右子树的的depth值是否相差为1
 ### Time and space complexity:

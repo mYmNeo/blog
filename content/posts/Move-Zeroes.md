@@ -12,7 +12,7 @@ tags:
 >**Note:**
 >1. You must do this **in-place** without making a copy of the array.
 >1. Minimize the total number of operations.
-<!-- more -->
+
 ### Analysis:
 可以看做是排序的一种变形,in-place排序有冒泡,快排,题目要求最小的操作,冒泡显然不合适,所以用快排的partition函数
 ### Time and space complexity:

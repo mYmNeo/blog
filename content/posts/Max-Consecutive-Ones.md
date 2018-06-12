@@ -5,7 +5,7 @@ tags:
   - algorithm
 date: 2017-04-19 21:25:46
 ---
-{% blockquote %}
+>
 Given a binary array, find the maximum number of consecutive 1s in this array.
 
 Example 1:
@@ -17,8 +17,8 @@ Note:
 
 The input array will only contain 0 and 1.
 The length of input array is a positive integer and will not exceed 10,000
-{% endblockquote %}
-<!-- more -->
+>
+
 ### Analysis:
 简单的数组问题
 ### Time and space complexity:

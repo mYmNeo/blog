@@ -23,7 +23,7 @@ tags:
  / \   / \
 9   6 3   1
 ```
-<!-- more -->
+
 ### Analysis:
 后序遍历树,最后交换一下左子树和右子树
 ### Time and space complexity

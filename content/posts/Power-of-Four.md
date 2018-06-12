@@ -5,7 +5,7 @@ tags:
   - algorithm
 date: 2016-05-07 10:09:52
 ---
-{% blockquote %}
+>
 Given an integer (signed 32 bits), write a function to check whether it is a power of 4.
 
 **Example:**
@@ -15,8 +15,8 @@ Given num = 16, return true. Given num = 5, return false.
 **Follow up:**
 
 Could you solve it without loops/recursion?
-{% endblockquote %}
-<!-- more -->
+>
+
 ### Analysis:
 power of 4一定是power of 2,所以先用power of 2 的验证方法来验证,然后处理特例的情况,例如
 ```

@@ -5,11 +5,11 @@ tags:
   - algorithm
 date: 2016-05-06 17:01:29
 ---
-{% blockquote %}
+>
 Given a binary tree, check whether it is a mirror of itself (ie, symmetric around its center).
 
 For example, this binary tree is symmetric:
-{% endblockquote %}
+>
 ```
     1
    / \
@@ -17,9 +17,9 @@ For example, this binary tree is symmetric:
  / \ / \
 3  4 4  3
 ```
-{% blockquote %}
+>
 But the following is not:
-{% endblockquote %}
+>
 ```
     1
    / \
@@ -27,11 +27,11 @@ But the following is not:
    \   \
    3    3
 ```
-{% blockquote %}
+>
 Note:
 Bonus points if you could solve it both recursively and iteratively.
-{% endblockquote %}
-<!-- more -->
+>
+
 ### Analysis:
 根据example,可以看出对称的位置是left->left和right->right,left->right和right->left,递归调用,检测每个子树是否为对称.
 ### Time and space complexity:

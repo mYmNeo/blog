@@ -6,7 +6,7 @@ tags:
     - algorithm
 ---
 >Reverse a singly linked list.
-<!-- more -->
+
 ### Analysis:
 这个没有难度,不停的往头指针加入节点就可以
 ### Time and space complexity:

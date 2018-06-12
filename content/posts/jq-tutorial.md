@@ -43,7 +43,7 @@ Example json file
   ]
 }
 ```
-<!-- more -->
+
 
 + query a attribute
 ```bash

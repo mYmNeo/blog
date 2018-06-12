@@ -18,7 +18,7 @@ tags:
 ]
 ```
 >If there is no valid move, return an empty list `[]`.
-<!-- more -->
+
 ### Analysis:
 这个就是简单的寻找连续2个`++`字符,找到后变成`--`
 ### Time and space complexity

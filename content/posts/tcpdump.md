@@ -14,7 +14,7 @@ tcpdump -D
 ```
 tcpdump -i eth0
 ```
-<!-- more -->
+
 - Listen on any available interface (cannot be done in promiscuous mode. Requires Linux kernel 2.2 or greater):
 ```
 tcpdump -i any

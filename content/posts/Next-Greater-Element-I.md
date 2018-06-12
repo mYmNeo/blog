@@ -5,7 +5,7 @@ tags:
   - algorithm
 date: 2017-04-19 21:28:24
 ---
-{% blockquote %}
+>
 st array, there is no next greater number for it in the second array, so output -1.
 Example 2:
 Input: nums1 = [2,4], nums2 = [1,2,3,4].
@@ -16,8 +16,8 @@ Explanation:
 Note:
 All elements in nums1 and nums2 are unique.
 The length of both nums1 and nums2 would not exceed 1000.
-{% endblockquote %}
-<!-- more -->
+>
+
 ### Analysis:
 利用stack记录逆序的序列,当stack的top元素小于当前读取元素的时候,就记录一下top元素的下一个元素就是当前元素,最后记录的结果查询输入的最终结果
 ### Time and space complexity:

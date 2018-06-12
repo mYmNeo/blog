@@ -5,12 +5,12 @@ tags:
   - algorithm
 date: 2016-05-05 16:43:27
 ---
-{% blockquote %}
+>
 Say you have an array for which the ith element is the price of a given stock on day i.
 
 If you were only permitted to complete at most one transaction (ie, buy one and sell one share of the stock), design an algorithm to find the maximum profit.
-{% endblockquote %}
-<!-- more -->
+>
+
 ### Analysis:
 遍历数组,记录到当前节点的最大值和最小值,当最小值变化后,同时更新最大值和最小值,因为前面的最大值和最小值在后面是用不到的
 ### Time and space complexity:

@@ -13,7 +13,7 @@ tags:
     + SPRMS 包含构建程序最后产生的源代码包文件
 1. 放置源代码到SOURCES文件夹中
 1. 编写spec文件
-<!-- more -->
+
 + 常用label
 
 |label|description|
@@ -49,9 +49,9 @@ tags:
 |package|生成子包|
 
 ## 创建Subpackages
-{% blockquote %}
+>
 简单的来说,subpackage是同一个spec文件创建出来众多package中的一个,RPM可以创建一个主要的package同时创建一个或者多个subpackage,subpackges可以不从主要的package中产生,这些都是根据package builder的规则来确定
-{% endblockquote %}
+>
 Example:
 {% codeblock lang:spec example.spec %}
 Name: foo

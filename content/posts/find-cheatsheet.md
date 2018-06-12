@@ -7,7 +7,7 @@ tags:
     - cheatsheet
 ---
 # Frequently used option of Find
-<!-- more -->
+
 ## TEST
 |option|description|example|
 |----|----|----|

@@ -5,7 +5,7 @@ tags:
     - leetcode
     - algorithm
 ---
-<!-- more -->
+
 >Given a non-negative integer `num`, repeatedly add all its digits until the result has only one digit.
 >
 >For example:
@@ -14,7 +14,7 @@ tags:
 >
 >**Follow up:**
 >Could you do it without any loop/recursion in $\Theta (1) $ runtime?
-<!-- more -->
+
 ### Analysis:
 最简单的方法就是按照例子给出的一样对每个数字做加法,然后不停迭代直到最后的`num < 10`
 

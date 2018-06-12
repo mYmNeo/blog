@@ -8,7 +8,7 @@ tags:
 >Given a binary tree, find its maximum depth.
 >
 >The maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
-<!-- more -->
+
 ### Analysis:
 DFS遍历一遍树,保存最大的`depth`
 ### Time and space complexity

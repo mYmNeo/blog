@@ -7,7 +7,7 @@ tags:
 ---
 # Kubernetes
 
-<!-- more -->
+
 ## kubelet event
 |PLEG|Apiserver|PodOperation|SyncPodType|Reason|Action
 |----|----|----|----|----|----

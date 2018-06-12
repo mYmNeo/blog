@@ -9,7 +9,7 @@ tags:
 ```bash
 rpm -qR <package-name>
 ```
-<!-- more -->
+
 + query the dependency of a rpm file
 ```bash
 rpm -qpR <rpm-file>

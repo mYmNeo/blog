@@ -9,7 +9,7 @@ tags:
 ```makefile
 $(if this-is-not-empty,then!,else!)
 ```
-<!-- more -->
+
 + Execute command but not display on standard output
 ```makefile
 @ls .

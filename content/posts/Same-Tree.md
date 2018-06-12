@@ -8,7 +8,7 @@ tags:
 >Given two binary trees, write a function to check if they are equal or not.
 >
 >Two binary trees are considered equal if they are structurally identical and the nodes have the same value.
-<!-- more -->
+
 ### Analysis:
 对2棵树做DFS遍历,2个树为same tree的条件
 1. 当前2个节点都为空

@@ -5,7 +5,7 @@ tags:
   - algorithm
 date: 2016-05-09 15:15:11
 ---
-{% blockquote %}
+>
 There is a fence with n posts, each post can be painted with one of the k colors.
 
 You have to paint all the posts such that no more than two adjacent fence posts have the same color.
@@ -15,8 +15,8 @@ Return the total number of ways you can paint the fence.
 **Note:**
 
 n and k are non-negative integers.
-{% endblockquote %}
-<!-- more -->
+>
+
 ### Analysis:
 分2种情况考虑:
 + 最后2个fences的color一样,这样就有(k-1)*f(n-2)

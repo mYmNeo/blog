@@ -10,7 +10,7 @@ tags:
 >Both of you are very clever and have optimal strategies for the game. Write a function to determine whether you can win the game given the number of stones in the heap.
 >
 >For example, if there are 4 stones in the heap, then you will never win the game: no matter 1, 2, or 3 stones you remove, the last stone will always be removed by your friend.
-<!-- more -->
+
 ### Analysis:
 这个问题其实可以简单的看做一个整除问题,如果总共的石头是4x个,也就是4的倍数,每当你拿x个石头,你的对手只要4-x个石头,这样无论如何你都不会赢,其他的情况是则是可能赢
 ### Time and space complexity

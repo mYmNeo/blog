@@ -5,12 +5,12 @@ tags:
   - algorithm
 date: 2016-05-07 10:01:54
 ---
-{% blockquote %}
+>
 Given a non-negative number represented as an array of digits, plus one to the number.
 
 The digits are stored such that the most significant digit is at the head of the list.
-{% endblockquote %}
-<!-- more -->
+>
+
 ### Analysis:
 逆向遍历,如果当前数字是9,那么变为0,如果不是9就把该数字+1,如果全是9的话,需要把第一位变成1,然后多加一个0
 ### Time and space complexity:

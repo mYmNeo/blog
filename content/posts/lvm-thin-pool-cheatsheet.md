@@ -21,7 +21,7 @@ lvextend -L <size> <pool name>
 lvs -oname,size,data_percent,metadata_percent # show the available metadat space in a thin pool LV
 lvextend --poolmetadatasize <size> <pool name>
 ```
-<!-- more -->
+
 ## Metadata space exhaustion
 >Metadata space exhaustion can lead to inconsistent thin pool metadata
 >and inconsistent file systems, so the response requires offline

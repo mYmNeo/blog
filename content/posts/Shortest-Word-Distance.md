@@ -15,7 +15,7 @@ tags:
 >
 >Note:
 >You may assume that word1 **does not equal** to word2, and word1 and word2 are both in the list.
-<!-- more -->
+
 ### Analysis:
 遍历一遍所有的words,记录word1和word2出现的位置,最后求一下位置的差值的绝对值
 ### Time and space complexity:

@@ -7,7 +7,7 @@ tags:
 ---
 
 # Port forwarding configuration
-<!-- more -->
+
 1. Add rule  
 - forward A:B to C:D
 ```

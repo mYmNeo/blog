@@ -11,7 +11,7 @@ tags:
 ```bash
 qemu-img create -f qcow2 <img path> <size>
 ```
-<!-- more -->
+
 1. Use virt-install install a VM
 ```bash
 virt-install \

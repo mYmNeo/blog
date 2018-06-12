@@ -16,7 +16,7 @@ tags:
 >**Example 2:**
 >
 >Given the list `[1,[4,[6]]]`, return 27. (one 1 at depth 1, one 4 at depth 2, and one 6 at depth 3; 1 + 4*2 + 6*3 = 27)
-<!-- more -->
+
 ### Analysis:
 首先`NestedInteger`类提供了一下3个接口
 ```cpp

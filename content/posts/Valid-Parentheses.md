@@ -5,12 +5,12 @@ tags:
   - algorithm
 date: 2016-05-09 17:22:01
 ---
-{% blockquote %}
+>
 Given a string containing just the characters `'('`, `')'`, `'{'`, `'}'`, `'['` and `']'`, determine if the input string is valid.
 
 The brackets must close in the correct order, `"()"` and `"()[]{}"` are all valid but `"(]"` and `"([)]"` are not.
-{% endblockquote %}
-<!-- more -->
+>
+
 ### Analysis:
 经典的用stack解决的问题
 ### Time and space complexity:

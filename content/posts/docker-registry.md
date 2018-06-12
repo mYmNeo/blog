@@ -8,7 +8,7 @@ tags:
 ```bash
 curl http://registry.com/v1/search
 ```
-<!-- more -->
+
 + pull image
 ```bash
 docker pull <hub address>/<name>

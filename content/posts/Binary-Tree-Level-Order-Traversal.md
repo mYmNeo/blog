@@ -5,13 +5,13 @@ tags:
   - algorithm
 date: 2016-05-08 11:24:07
 ---
-{% blockquote %}
+>
 Given a binary tree, return the level order traversal of its nodes' values. (ie, from left to right, level by level).
 
 For example:
 
 Given binary tree `{3,9,20,#,#,15,7}`,
-{% endblockquote %}
+>
 ```
     3
    / \
@@ -19,9 +19,9 @@ Given binary tree `{3,9,20,#,#,15,7}`,
     /  \
    15   7
  ```
-{% blockquote %}
+>
 return its level order traversal as:
-{% endblockquote %}
+>
 ```
 [
   [3],
@@ -29,7 +29,7 @@ return its level order traversal as:
   [15,7]
 ]
 ```
-<!-- more -->
+
 ### Analysis:
 level遍历
 ### Time and space complexity:

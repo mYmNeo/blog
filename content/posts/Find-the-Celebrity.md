@@ -12,7 +12,7 @@ tags:
 >You are given a helper function `bool knows(a, b)` which tells you whether A knows B. Implement a function `int findCelebrity(n)`, your function should minimize the number of calls to `knows`.
 >
 >Note: There will be exactly one celebrity if he/she is in the party. Return the celebrity's label if there is a celebrity in the party. If there is no celebrity, return -1.
-<!-- more -->
+
 ### Analysis:
 Celebrity的定义是别人都认识他,他不认识所有人,根据这个定义我们可以知道如果一个人认识另外一个人,那么他肯定不是Celebrity,如果他不认识另外一个人,那么他可能是Celebrity.所以我们就先用一次遍历来找出可能的Celebrity,然后我们再遍历一次,验证这个人到底是不是Celebrity.
 ### Time and space complexity:

@@ -13,7 +13,7 @@ sed '$a<content>' <file>
 ```bash
 sed '<line>i<content>' <file>
 ```
-<!-- more -->
+
 + delete line
 ```bash
 sed '<line>d' <file>

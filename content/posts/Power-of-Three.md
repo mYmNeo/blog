@@ -5,14 +5,14 @@ tags:
   - algorithm
 date: 2016-05-05 11:28:06
 ---
-{% blockquote %}
+>
 Given an integer, write a function to determine if it is a power of three.
 
 **Follow up:**
 
 Could you do it without using any loop / recursion?
-{% endblockquote %}
-<!-- more -->
+>
+
 ### Analysis:
 不停的除以3直到数字变为1,并检查每次的结果module 3后是否为0
 

@@ -10,7 +10,7 @@ tags:
 >**Example:**
 >
 >Given s = "hello", return "olleh".
-<!-- more -->
+
 ### Analysis:
 用头尾2个指针进行遍历,遍历的同时进行交换
 ### Time ans space complexity

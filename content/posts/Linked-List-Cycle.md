@@ -5,13 +5,13 @@ tags:
   - algorithm
 date: 2016-05-03 10:22:02
 ---
-{% blockquote %}
+>
 Given a linked list, determine if it has a cycle in it.
 
 Follow up:
 Can you solve it without using extra space?
-{% endblockquote %}
-<!-- more -->
+>
+
 ### Analysis:
 native方式存储所有的node节点,如果查到相同的node节点表示有cycle.
 

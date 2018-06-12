@@ -5,11 +5,11 @@ tags:
   - algorithm
 date: 2016-05-05 15:59:11
 ---
-{% blockquote %}
+>
 Write an algorithm to determine if a number is "happy".
 
 A happy number is a number defined by the following process: Starting with any positive integer, replace the number by the sum of the squares of its digits, and repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. Those numbers for which this process ends in 1 are happy numbers.
-{% endblockquote %}
+>
 **Example:** 19 is a happy number
 $1^2 + 9^2 = 82
 
@@ -23,7 +23,7 @@ $
 $1^2 + 0^2 + 0^2 = 1
 
 $
-<!-- more -->
+
 ### Analysis:
 没有特别的方法,只能按照判断happy number的方法一直计算,如果是happy number,那么就最后会得到1,如果不是就会出现重复出现的数字
 

@@ -10,7 +10,7 @@ tags:
 >For example,
 >Given `[[0, 30],[5, 10],[15, 20]]`,
 >return `false`.
-<!-- more -->
+
 ### Analysis:
 简单地排序问题,将所有的interval按照开始时间排序,
 然后遍历如果当前的interval的结束时间大于下一个interval的开始时间就返回`false`

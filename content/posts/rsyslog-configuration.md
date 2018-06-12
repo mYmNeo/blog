@@ -11,7 +11,7 @@ tags:
 /etc/rsyslog.conf
 /etc/rsyslog.d/
 ```
-<!-- more -->
+
 2. rotate configuration location
 
 ```

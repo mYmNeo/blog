@@ -5,7 +5,7 @@ tags:
     - leetcode
     - algorithm
 ---
-{% blockquote %}
+>
 Related to question Excel Sheet Column Title
 
 Given a column title as appear in an Excel sheet, return its corresponding column number.
@@ -20,8 +20,8 @@ For example:
     AA -> 27
     AB -> 28 
 ```
-{% endblockquote %}
-<!-- more -->
+>
+
 ### Analysis:
 类似于`atoi`,只不过不是10进制而是26进制
 ### Time and space complexity:

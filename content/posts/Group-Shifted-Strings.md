@@ -5,18 +5,18 @@ tags:
   - algorithm
 date: 2016-05-09 14:42:22
 ---
-{% blockquote %}
+>
 Given a string, we can "shift" each of its letter to its successive letter, for example: `"abc" -> "bcd"`. We can keep "shifting" which forms the sequence:
-{% endblockquote %}
+>
 ```
 "abc" -> "bcd" -> ... -> "xyz"
 ```
-{% blockquote %}
+>
 Given a list of strings which contains only lowercase alphabets, group all strings that belong to the same shifting sequence.
 
 For example, given: `["abc", "bcd", "acef", "xyz", "az", "ba", "a", "z"]`, 
 Return:
-{% endblockquote %}
+>
 ```
 [
   ["abc","bcd","xyz"],
@@ -25,10 +25,10 @@ Return:
   ["a","z"]
 ]
 ```
-{% blockquote %}
+>
 Note: For the return value, each inner list's elements must follow the lexicographic order.
-{% endblockquote %}
-<!-- more -->
+>
+
 ### Analysis:
 根据shift的pattern来当做key,string作为value,这样相同的shift的pattern就会是同一组values,然后排序一下
 ### Time and space complexity:

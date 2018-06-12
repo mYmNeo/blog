@@ -5,12 +5,12 @@ tags:
   - algorithm
 date: 2016-05-09 15:49:26
 ---
-{% blockquote %}
+>
 Write a program to find the node at which the intersection of two singly linked lists begins.
 
 
 For example, the following two linked lists:
-{% endblockquote %}
+>
 ```
 A:          a1 → a2
                    ↘
@@ -18,7 +18,7 @@ A:          a1 → a2
                    ↗            
 B:     b1 → b2 → b3
 ```
-{% blockquote %}
+>
 begin to intersect at node c1.
 
 
@@ -28,8 +28,8 @@ begin to intersect at node c1.
 + The linked lists must retain their original structure after the function returns.
 + You may assume there are no cycles anywhere in the entire linked structure.
 + Your code should preferably run in O(n) time and use only O(1) memory.
-{% endblockquote %}
-<!-- more -->
+>
+
 ### Analysis:
 一种方式,原理跟快慢指针找环是一个道理,将一个list的尾部加到另外一个list的头部,找到交叉部分,然后根据交叉部分来找到相交部分.
 

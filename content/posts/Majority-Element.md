@@ -14,7 +14,7 @@ tags:
 1. 如果统计值为0,更改major的值为当前值和统计值为1
 1. 如果统计值不为0,那么如果当前值和major的值不一致,统计值就-1,否则就+1
 最后,major的值就为答案
-<!-- more -->
+
 ### Time and space complexity:
 time: $\Theta (n)$
 

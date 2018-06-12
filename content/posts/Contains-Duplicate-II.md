@@ -5,10 +5,10 @@ tags:
   - algorithm
 date: 2016-05-09 16:18:46
 ---
-{% blockquote %}
+>
 Given an array of integers and an integer k, find out whether there are two distinct indices i and j in the array such that nums[i] = nums[j] and the difference between i and j is at most k.
-{% endblockquote %}
-<!-- more -->
+>
+
 ### Analysis:
 长度为k的滑动窗口,用map来记录数字出现的次数
 ### Time and space complexity:

@@ -17,7 +17,7 @@ git reset --hard <commit id> # Resets the index and working tree. Any changes to
 git reset --mixed <commit id> # Resets the index but not the working tree (i.e., the changed files are preserved but not marked for commit) and reports what has not been updated. This is the default action.
 git show <commit id> # show <commit id> content
 ```
-<!-- more -->
+
 + patch
 ```bash
 git format-patch -1 <commit id> # generate patch related to <commit id>
@@ -42,7 +42,7 @@ git log -p <filename> # view the change history of <filename>
 git archive <branch name> --prefix=<prefix> --format=<zip,tar> -o <filename>
 ```
 + hook
-{% blockquote %}
+>
 Installing a Hook
 
 To enable a hook script, put a file in the hooks subdirectory of your .git directory that is named appropriately (without any extension) and is executable. From that point forward, it should be called. We’ll cover most of the major hook filenames here.
@@ -79,7 +79,7 @@ The post-merge hook runs after a successful merge command. You can use it to res
 The pre-push hook runs during git push, after the remote refs have been updated but before any objects have been transferred. It receives the name and location of the remote as parameters, and a list of to-be-updated refs through stdin. You can use it to validate a set of ref updates before a push occurs (a non-zero exit code will abort the push).
 
 Git occasionally does garbage collection as part of its normal operation, by invoking git gc --auto. The pre-auto-gc hook is invoked just before the garbage collection takes place, and can be used to notify you that this is happening, or to abort the collection if now isn’t a good time.
-{% endblockquote %}
+>
 + recover delete commit
     1. back up your entire directory, including the .git directory.
     1. You can use `git fsck --lost-found` to obtain the ID of the lost commits.

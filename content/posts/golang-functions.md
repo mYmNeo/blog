@@ -9,7 +9,7 @@ tags:
 ```golang
 runtime.Caller(0)
 ```
-<!-- more -->
+
 + iterate over some field in structure
 ```golang
 package main

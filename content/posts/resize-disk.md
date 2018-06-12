@@ -11,7 +11,7 @@ tags:
 ```bash
 umount /dev/disk
 ```
-<!-- more -->
+
 1. Run fsck on the umounted file system
 ```bash
 e2fsck -f /dev/disk
