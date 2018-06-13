@@ -7,4 +7,4 @@ alwaysopen = true
 
 ## Posts
 
-{{%children style="h1" description="true"%}}
+{{%children style="h3" description="true"%}}
