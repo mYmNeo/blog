@@ -7,6 +7,7 @@ tags:
 # Tips for socat
 
 1. listen tcp port and transport data to unix socket
+
 ```bash
 socat TCP-LISTEN:<port>,fork UNIX:<socket file>
 ```

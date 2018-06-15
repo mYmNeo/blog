@@ -36,14 +36,19 @@ virsh vncdisplay <domain name>
 > virsh -c qemu:///system
 
 - Start VM
+
 ```bash
 virsh start <domain name>
 ```
+
 - Stop VM
+
 ```bash
 virsh destroy <domain name>
 ```
+
 - Delete VM
+
 ```bash
 virsh undefined <domain name>
 ```

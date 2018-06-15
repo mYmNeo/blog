@@ -1,5 +1,5 @@
 +++
-title = "Posts"
+title = "Algorithm"
 description = ""
 weight = 1
 alwaysopen = true
