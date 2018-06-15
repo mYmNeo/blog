@@ -1,4 +1,4 @@
-baseURL = "http://mymneo.github.io"
+baseURL = "http://mymneo.github.io/"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 title = "Sparking Mind"
@@ -44,5 +44,5 @@ home = [ "HTML", "RSS", "JSON"]
 pre = "<h3>More</h3>"
 name = "<i class='fa fa-github'></i> <label>Github repo</label>"
 identifier = "ds"
-url = "https://github.com/mYmNeo"
+url = "https://github.com/mYmNeo/"
 weight = 10
