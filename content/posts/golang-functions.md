@@ -6,11 +6,13 @@ tags:
     - golang
 ---
 + tell you file and line number like C
+
 ```golang
 runtime.Caller(0)
 ```
 
 + iterate over some field in structure
+
 ```golang
 package main
 
@@ -49,27 +51,36 @@ func main() {
     fmt.Printf("%s%s%s%d%s%d\n", ms.A, ms.B, ms.C, ms.I, ms.D, ms.J)
 }
 ```
+
 + underscore usage
+
 1. used in import
-invoke the `init` function but not import other function of this package
+
+- invoke the `init` function but not import other function of this package
+
 ```go
 import _ "net/http/pprof"
 ```
 
 1. user in returned value
-ignore the some value
+
+- ignore the some value
+
 ```go
 for _, v := range Slice{}
 ```
 
 1. used in variable
-type assertion
+
+- type assertion
+
 ```go
 type T struct{}
 var _ I = T{} # judge whether type T has implements I interface, if not, raise an error while compiling
 ```
 
 + cgo
+
 1. Refer to a C struct field named `type`
 
 > Within the Go file, C identifiers or field names that are keywords in 
@@ -78,12 +89,15 @@ var _ I = T{} # judge whether type T has implements I interface, if not, raise a
 
 2. export go function to c library
 
-`//export <function>`
+```golang
+//export <function>
+```
 
 > Notice, you can't add space between // and export, but you can add space when import c header file 
 > or add `#cgo`
 
 3. when convert Go string to char* or Go []byte slice to C array, don't forget free the memory, other transformation doesn't has to do so
+
 ```golang
 cstr := C.CString("hello")
 C.free(unsafe.Pointer(cstr))
@@ -102,6 +116,7 @@ func C.GoBytes(unsafe.Pointer, C.int) []byte
 ```
 
 4. basic type of C in different package is not the same type, that means
+
 ```golang
 package pkg1
 
@@ -111,6 +126,7 @@ package pkg2
 
 func test(arg C.char) {}
 ```
+
 the type of `arg` is not the same
 
 + goroutine
@@ -263,6 +279,7 @@ CGO_ENABLED=1 go build
 ```
 
 + Use the reflect package to get the string keys from a map with arbitrary value type
+
 ```golang
 func Keys(v interface{}) ([]string, error) {
   rv := reflect.ValueOf(v)
@@ -279,8 +296,8 @@ func Keys(v interface{}) ([]string, error) {
   }
   return result, nil
 }
-
 ```
+
 + Custom Tag
 
 ```golang
