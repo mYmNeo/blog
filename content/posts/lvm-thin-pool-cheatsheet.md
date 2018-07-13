@@ -8,15 +8,21 @@ tags:
     - cheatsheet
 ---
 > We use devicemapper as Docker storage driver, sometime any of the meta or data pool is full. We have to extend the pool
+
 1. Single step thin pool LV creation
+
 ```bash
 lvcreate --type thin-pool --poolmetadata <meta size> -L <pool size> <pool name>
 ```
+
 1. Manually manage free data space of thin pool LV
+
 ```bash
 lvextend -L <size> <pool name>
 ```
+
 1. Manually manage free metadata space of a thin pool LV
+
 ```bash
 lvs -oname,size,data_percent,metadata_percent # show the available metadat space in a thin pool LV
 lvextend --poolmetadatasize <size> <pool name>
