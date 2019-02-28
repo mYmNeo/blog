@@ -79,4 +79,10 @@ char result[128];
 *(int64_t*)(buf+16) = (int64_t)result;
 *(int64_t*)(buf+24) = 128;
 
+ioctl($ctl_fd, 0xc020462a, buf);
+```
+
++ loop for every device
+
+```
 ```
