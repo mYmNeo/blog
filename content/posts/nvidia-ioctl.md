@@ -5,16 +5,16 @@
 + version check
 
 ```
-char buf[80];
+char iop[80];
 int check_result;
 
 // send op
-memset(buf, 0x00, 80);
-strncpy(buf+8, $version, 8);
+memset(iop, 0x00, 80);
+strncpy(iop+8, $version, 8);
 
-ioctl($ctl_fd, 0xc04846d2, buf);
+ioctl($ctl_fd, 0xc04846d2, iop);
 
-check_result = *(int*)(buf+4);
+check_result = *(int*)(iop+4);
 ```
 
 + system memory
@@ -30,7 +30,7 @@ fd = open("/sys/devices/system/memory/block_size_bytes", r, O_RDONLY);
 read(fd, buf, 99);
 block_size_bytes = strtoul(buf, &endptr, 16, 0);
 
-ioctl($ctl_fd, 0xc00846d6, buf);
+ioctl($ctl_fd, 0xc00846d6, &block_size_bytes);
 ```
 
 + init 3
@@ -57,17 +57,32 @@ ioctl($ctl_fd, 0xca0046c8, cards);
 
 ```
 int seq_id;
-char buf[32];
+char iop[32];
 
 seq_id = 0;
-memset(buf, 0x00, 32);
+memset(iop, 0x00, 32);
 
-*((size_t *)buf[16]) = &seq_id;
+*((size_t *)iop[16]) = &seq_id;
 
-ioctl($ctl_fd, 0xc020462b, buf);
+ioctl($ctl_fd, 0xc020462b, iop);
 ```
 
-+ init 4
++ get bus id
+
+```
+char iop[32];
+char result[128];
+
+*(int*)iop = seq_id;
+*(int*)(iop+4) = seq_id;
+*(int*)(iop+8) = 0x214;
+*(int64_t*)(iop+16) = (int64_t)result;
+*(int64_t*)(iop+24) = 128;
+
+ioctl($ctl_fd, 0xc020462a, iop);
+```
+
++ loop for every device
 
 ```
 char buf[32];
@@ -75,14 +90,9 @@ char result[128];
 
 *(int*)buf = seq_id;
 *(int*)(buf+4) = seq_id;
-*(int*)(buf+8) = 0x214;
+*(int*)(buf+8) = 0x21b;
 *(int64_t*)(buf+16) = (int64_t)result;
 *(int64_t*)(buf+24) = 128;
 
 ioctl($ctl_fd, 0xc020462a, buf);
-```
-
-+ loop for every device
-
-```
 ```
