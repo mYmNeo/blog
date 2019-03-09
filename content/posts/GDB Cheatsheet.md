@@ -25,3 +25,10 @@ Tektronix Hex format.
 verilog
 Verilog Hex format.
 ```
+
+- Show more line of source code
+
+```
+set listsize xxx
+```
+
