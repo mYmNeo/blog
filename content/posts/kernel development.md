@@ -8,3 +8,7 @@ The asmlinkage tag is one other thing that we should observe about this simple f
 - `__builtin_return_address(0)`
 
 get caller address
+
+- `__user, __kernel` attribute
+
+
