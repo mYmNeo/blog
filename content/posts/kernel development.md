@@ -18,4 +18,4 @@ bitwise
 force
 context(expression,in_context,out_context)
 
-so `__user` indicate the pointer is from user-space, kernel can't dereference it. `__kernel` is objective
+so `__user` indicate the pointer is from user-space, kernel can't dereference it. `__kernel` is objection.
