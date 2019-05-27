@@ -11,4 +11,11 @@ get caller address
 
 - `__user, __kernel` attribute
 
+>Some of the checks performed by Sparse require annotating the source code using the __attribute__ GCC extension, or the Sparse-specific __context__ specifier.[5] Sparse defines the following list of attributes:
+>
+>address_space(num)
+bitwise
+force
+context(expression,in_context,out_context)
 
+so `__user` indicate the pointer is from user-space, kernel can't dereference it. `__kernel` is objective
