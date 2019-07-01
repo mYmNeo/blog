@@ -123,7 +123,7 @@ Output	{"KEY_a": 1, "KEY_b": 2}
 ```
 jq '.name="1"|.resource="2"'
 Input {"name":"a","resource":"b"}
-Ouput {"name":"1","resource":"b"}
+Ouput {"name":"1","resource":"2"}
 ```
 + show select fields
 
@@ -131,4 +131,20 @@ Ouput {"name":"1","resource":"b"}
 jq '.name,.resource'
 Input {"name":"a","resource":"b","type":"c"}
 Output "a" "b"
+```
+
++ delete field value
+
+```
+jq 'del(.name)'
+Input {"name":"a","resource":"b","type":"c"}
+Output {"resource":"b","type":"c"}
+```
+
++ change key field
+
+```
+jq '{"newkey":.name,"newkey2":.type}'
+Input {"name":"a","resource":"b","type":"c"}
+Output {"newkey":"a","newkey2":"c"}
 ```
